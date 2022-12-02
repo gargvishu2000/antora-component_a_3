@@ -1,0 +1,12 @@
+site:
+   title: Antora Portal
+   start_page: component-a::inline-text-formatting.adoc
+content:
+   sources:
+   - url: https://github.com/gargvishu2000/antora-component_a_2.git
+     branch: HEAD
+     start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true     
